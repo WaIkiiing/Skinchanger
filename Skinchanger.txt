@@ -1,0 +1,621 @@
+Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "👅Arsenal Knife Changer👅",
+   LoadingTitle = "Please wait pussy",
+   LoadingSubtitle = "by Kxylem bitch ass nigga",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Arsenal SkinChanger"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("Blast Hammer", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Skins")
+
+Rayfield:Notify({
+   Title = "Executed",
+   Content = "Please Wait Nigga",
+   Duration = 5,
+   Image = nil,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Aged Shovel",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Aged Shovel"
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Big Sip",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Big Sip"
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Coal Scythe",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Coal Scythe"
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Daito",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Daito"
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Halberd",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Halberd"
+   end,
+})
+
+local ClassicSwordTab = Window:CreateTab("Classic Sword", nil) -- Title, Image
+local ClassicSwordSection = ClassicSwordTab:CreateSection("Skins")
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Annihilator's Broken Sword",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Annihilator's Broken Sword"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Assimilator",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Assimilator"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Bunny Staff",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Bunny Staff"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Easter Cleaver",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Easter Cleaver"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Egg",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Egg"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Heart Break",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Heart Break"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Hero's Sword",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Hero's Sword"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Night's Edge",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Night's Edge"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Pumpkin Axe",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Pumpkin Axe"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Reclaimer",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Reclaimer"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Smug Egg",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Smug Egg"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Spring Greatsword",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Spring Greatsword"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "Synthlight Greatsword",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Synthlight Greatsword"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "The Darkheart",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "The Darkheart"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "The Ghostwalker",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "The Ghostwalker"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "The Illumina",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "The Illumina"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "The Scrambler",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "The Scrambler"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "The Windforce",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "The Windforce"
+   end,
+})
+
+local Button = ClassicSwordTab:CreateButton({
+   Name = "When Day Breaks",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "When Day Breaks"
+   end,
+})
+
+local ClawsTab = Window:CreateTab("Claws", nil) -- Title, Image
+local Section = ClawsTab:CreateSection("Skins")
+
+local Button = ClawsTab:CreateButton({
+   Name = "Slappy",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Slappy"
+   end,
+})
+
+local DaggerTab = Window:CreateTab("Dagger", nil) -- Title, Image
+local Section = DaggerTab:CreateSection("Skins")
+
+local Button = DaggerTab:CreateButton({
+   Name = "ACT Trophy",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "ACT Trophy"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Banana",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Banana"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Bloxy",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Bloxy"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Candy Cane",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Candy Cane"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Carrot",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Carrot"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Delinquent Pop",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Delinquent Pop"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Electronic Stake",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Electronic Stake"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "FOAM BLADE 3000",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "FOAM BLADE 3000"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Garlic Kebab",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Garlic Kebab"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Gingerbread Knife",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Gingerbread Knife"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Handy Candy",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Handy Candy"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Icicle",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Icicle"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Kitchen Knife",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Kitchen Knife"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Peppermint Hammer",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Peppermint Hammer"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Pumpkin Bucket",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Pumpkin Bucket"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Pumpkin Staff",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Pumpkin Staff"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "The Ice Dagger",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "The Ice Dagger"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Toy Tree",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Toy Tree"
+   end,
+})
+
+local Button = DaggerTab:CreateButton({
+   Name = "Wooden Spoon",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Wooden Spoon"
+   end,
+})
+
+local KarambitTab = Window:CreateTab("Karambit", nil) -- Title, Image
+local KarambitSection = KarambitTab:CreateSection("Skins")
+
+local Button = KarambitTab:CreateButton({
+   Name = "Golden Rings",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Golden Rings"
+   end,
+})
+
+local Button = KarambitTab:CreateButton({
+   Name = "Reliable Hammer",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Reliable Hammer"
+   end,
+})
+
+local Button = KarambitTab:CreateButton({
+   Name = "Rubber Hammer",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Rubber Hammer"
+   end,
+})
+
+local KatanaTab = Window:CreateTab("Katana", nil) -- Title, Image
+local KatanaSection = KatanaTab:CreateSection("Skins")
+
+local Button = KatanaTab:CreateButton({
+   Name = "Bouquet",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Bouquet"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Da Melee",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Da Melee"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Digi-Blade",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Digi-Blade"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Divinity",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Divinity"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Doublade",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Doublade"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Electro Axe",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Electro Axe"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Glacier Blade",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Glacier Blade"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Killbrick Melee",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Killbrick Melee"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Nomad's Blade",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Nomad's Blade"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "OG Space Katana",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "OG Space Katana"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Space Katana",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Space Katana"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Saber",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Saber"
+   end,
+})
+
+local Button = KatanaTab:CreateButton({
+   Name = "Swift End",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Swift End"
+   end,
+})
+
+local KunaiTab = Window:CreateTab("Kunai", nil) -- Title, Image
+local KunaiSection = KunaiTab:CreateSection("Skins")
+
+local Button = KunaiTab:CreateButton({
+   Name = "Bat",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Bat"
+   end,
+})
+
+local Button = KunaiTab:CreateButton({
+   Name = "Scythe",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Scythe"
+   end,
+})
+
+local NewspaperTab = Window:CreateTab("Newspaper", nil) -- Title, Image
+local NewspaperSection = NewspaperTab:CreateSection("Skins")
+
+local Button = NewspaperTab:CreateButton({
+   Name = "Bone Club",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Bone Club"
+   end,
+})
+
+local Button = NewspaperTab:CreateButton({
+   Name = "Brick",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Brick"
+   end,
+})
+
+local Button = NewspaperTab:CreateButton({
+   Name = "Doodle Sign",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Doodle Sign"
+   end,
+})
+
+local Button = NewspaperTab:CreateButton({
+   Name = "Leader's Axe",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Leader's Axe"
+   end,
+})
+
+local Button = NewspaperTab:CreateButton({
+   Name = "Loaf",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Loaf"
+   end,
+})
+
+local Button = NewspaperTab:CreateButton({
+   Name = "Makeshift Axe",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Makeshift Axe"
+   end,
+})
+
+local Button = NewspaperTab:CreateButton({
+   Name = "R.A.M",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "R.A.M"
+   end,
+})
+
+local Button = NewspaperTab:CreateButton({
+   Name = "Rebel's Bat",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Rebel's Bat"
+   end,
+})
+
+local Button = NewspaperTab:CreateButton({
+   Name = "Silver Bell",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Silver Bell"
+   end,
+})
+
+local Button = NewspaperTab:CreateButton({
+   Name = "Sip O' Stink",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Sip O' Stink"
+   end,
+})
+
+local Button = NewspaperTab:CreateButton({
+   Name = "Wired Bat",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Wired Bat"
+   end,
+})
+
+local RokiaHammerTab = Window:CreateTab("Rokia Hammer", nil) -- Title, Image
+local RokiaHammerSection = RokiaHammerTab:CreateSection("Skins")
+
+local Button = RokiaHammerTab:CreateButton({
+   Name = "Ban Hammer",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Ban Hammer"
+   end,
+})
+
+local Button = RokiaHammerTab:CreateButton({
+   Name = "Moai",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Moai"
+   end,
+})
+
+local Button = RokiaHammerTab:CreateButton({
+   Name = "Moderation Hammer",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Moderation Hammer"
+   end,
+})
+
+local SledgehammerTab = Window:CreateTab("Sledgehammer", nil) -- Title, Image
+local SledgehammerSection = SledgehammerTab:CreateSection("Skins")
+
+local Button = SledgehammerTab:CreateButton({
+   Name = "Pitchfork",
+   Callback = function()
+       game.Players.Roxceeto.Data.Melee.Value = "Pitchfork"
+   end,
+})
+
+local CheatsTab = Window:CreateTab("Freaky", nil) -- Title, Image
+local CheatsSection = CheatsTab:CreateSection("Cheats")
+
+local Button = CheatsTab:CreateButton({
+   Name = "Vennox",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/venoxhh/venoxV1/main/main.lua'))()
+   end,
+})
